@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Request Form</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Student  Form</h1>
+    <form action="/" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="name" required><br>
+
+        <label for="studentid">Student ID Number:</label>
+        <input type="text" id="studentid" name="studentid" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required></textarea><br>
+
+        
+
+        
+
+        <!-- Additional fields related to academic or financial information can be added here -->
+
+        <label for="documentation">Supporting Documentation (if any):</label>
+        <input type="file" id="documentation" name="documentation"><br>
+
+        <label for="authorization">Technical Skills</label>
+        <input type="text" id="authorization" name="skills" required><br>
+
+        <label for="submissiondate">Date of Submission:</label>
+        <input type="date" id="submissiondate" name="submissiondate" required><br>
+
+        <input type="submit" value="Submit Request">
+    </form>
+</body>
+</html>
